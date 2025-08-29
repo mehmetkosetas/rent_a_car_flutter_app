@@ -22,7 +22,7 @@ class _AIAssistantScreenState extends State<AIAssistantScreen>
   late AnimationController _animationController;
   late Animation<double> _fadeAnimation;
 
-  static const String _geminiApiKey = 'AIzaSyCX9p3RdoyIe5L3wQfSuuP8GJSqBSZIHPc';
+  static const String _geminiApiKey = 'X';
   static const String _geminiUrl =
       'https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent';
 
