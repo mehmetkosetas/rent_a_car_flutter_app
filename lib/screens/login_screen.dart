@@ -17,7 +17,7 @@ class _LoginScreenState extends State<LoginScreen>
     with TickerProviderStateMixin {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
-  final String _firebaseApiKey = "AIzaSyAdasdDxAcgzJIUxzSfMtUXb9dkdiNRNHc";
+  final String _firebaseApiKey = "X";
 
   bool _isLogin = true;
   bool _obscurePassword = true;
